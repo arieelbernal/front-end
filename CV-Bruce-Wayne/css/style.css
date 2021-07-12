@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+}
+/*       General        */
+h1, h2{
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+/********Header********/
+.logo-cv{
+    background-color: #E5E5E5;
+    margin-left: center;
+}
+.h1-header{
+    text-align: center;
+}
+/********Main********/
+span{
+    font-weight: bold;
+}
+.datos{
+    font-style: italic;
+}
+
+/********Footer********/
+footer{
+    background-color: #005677;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
