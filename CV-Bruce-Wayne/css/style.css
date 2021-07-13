@@ -1,22 +1,35 @@
-body{
-    margin: 0 auto;
-}
 /*       General        */
+body{
+    font-family: 'Times New Roman';
+    margin: 0;
+}
 h1, h2{
-    text-transform: uppercase;
     background-color: #C4C4C4;
     color: #005677;
+    text-transform: uppercase;
 }
 
 /********Header********/
 .logo-cv{
     background-color: #E5E5E5;
-    margin-left: center;
 }
 .h1-header{
     text-align: center;
+    width: 1440;
 }
+.h1-header h1{
+    font-size: 35px;
+    height: 40px;
+    letter-spacing:10px;
+    margin: 0;
+    padding: 10px;
+    white-space: 12px;
+}
+
 /********Main********/
+section h2{
+    font-size: 20px;
+}
 span{
     font-weight: bold;
 }
@@ -28,6 +41,7 @@ span{
 footer{
     background-color: #005677;
     color: #FFFFFF;
+    font-size:20px;
     font-weight: bold;
 }
 
