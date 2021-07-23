@@ -1,0 +1,86 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+    font-size: bold;
+    text-transform: uppercase;
+}
+a:visited{
+    color:white;
+}
+
+
+/************* Header **********/
+header {
+    background-color: #2857ad;
+    text-align: center;
+}
+.foto-cv{
+    border: 5px solid #000;
+    border-radius:100%;
+    margin-top: 0.5em;
+    width: 7%;
+}
+header h1{
+    background-color: rgba(122, 122, 122, 0.10);
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    letter-spacing: 0.3em;
+    margin-top: 0.1em;
+}
+
+
+/************* Main ***********/
+main{
+    margin: 10% 15%;
+
+}
+section{
+    font-size: 20px;
+}
+span{
+    font-weight: bold;
+}
+section > h2{
+    background-color:rgba(40, 87, 173,0.9);
+    font-size:26px;
+    letter-spacing:0.1em;
+    padding: 0.2em 0.5em;
+}
+section > ul{
+    margin: 1em 2em;
+    list-style-type: square;
+}
+section > dl{
+    margin: 1em 4.1em;
+}
+section > dl > dd{
+    margin-left:6.75em;
+}
+section > ul > li > ul{
+    list-style-type: disc;
+}
+/************* Footer *********/
+footer{
+    align-items:center;
+    background-color: rgba(40, 87, 173,0.9);
+    display:flex;
+    justify-content:center;
+    height: 2.5em;
+}
+.contacto{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+}
+.redes{
+    font-size: 20px;
+    margin-left:1em;
+}
+.redes > a:visited:link:hover:active:focus{
+    color:white;
+}
