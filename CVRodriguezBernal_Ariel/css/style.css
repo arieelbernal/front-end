@@ -9,27 +9,25 @@ h1, h2{
     font-size: bold;
     text-transform: uppercase;
 }
-a:visited{
-    color:white;
-}
 
 
 /************* Header **********/
 header {
-    background-color: #2857ad;
+    background: linear-gradient(0deg, #000000, #242424);
+    background-color: #000000;
     text-align: center;
 }
 .foto-cv{
-    border: 5px solid #000;
     border-radius:100%;
     margin-top: 0.5em;
     width: 7%;
 }
 header h1{
-    background-color: rgba(122, 122, 122, 0.10);
-    border-top: 5px solid #000;
-    border-bottom: 5px solid #000;
-    letter-spacing: 0.3em;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: 3px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 10px #5a5a5a;
+    color:white;
+    letter-spacing: 0.35em;
     margin-top: 0.1em;
 }
 
@@ -46,9 +44,11 @@ span{
     font-weight: bold;
 }
 section > h2{
-    background-color:rgba(40, 87, 173,0.9);
+    background-color:rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 10px #5a5a5a;
+    color:white;
     font-size:26px;
-    letter-spacing:0.1em;
+    letter-spacing:0.15em;
     padding: 0.2em 0.5em;
 }
 section > ul{
@@ -67,12 +67,13 @@ section > ul > li > ul{
 /************* Footer *********/
 footer{
     align-items:center;
-    background-color: rgba(40, 87, 173,0.9);
+    background-color: rgba(0, 0, 0, 0.83);
     display:flex;
     justify-content:center;
     height: 2.5em;
 }
 .contacto{
+    color:white;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.5em;

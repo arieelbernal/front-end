@@ -44,6 +44,15 @@ section h2{
     padding-left: 0.5em;
     padding-top:0.3em;
 }
+.contendatos ul{
+    margin:1.2em 0.5em;
+}
+dl{
+    margin: 1.5em 2.8em;
+}
+dd{
+    margin-left: 4.9em;
+}
 span{
     font-weight: bold;
 }

@@ -5,8 +5,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 /*  header  */
 header{
     background-color: #1CD1B0;
@@ -25,9 +23,83 @@ h1{
 }
 
 /*  main  */
-
-
+.container{
+    align-items:stretch;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-evenly;
+    margin: 8em 0em;
+}
+.card{
+    align-items: center;
+    border-radius: 5% 5% 0 0;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width:30%;
+}
+.card-img{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 9em;
+}
+.fa-heart{
+    color:#CC2424;
+    font-size: 35px;
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+}
+.batman{
+    background:#F3F3F3 url(../img/fondo-batman.jpg) no-repeat top;
+    background-size: 100% 193px;
+}
+.batman img{
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    width: 120px;
+}
+.harley{
+    background:#F3F3F3 url(../img/fondp-harley.jpg) no-repeat top;
+    background-size: 100% 193px;
+}
+.harley img{
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    width: 120px;
+}
+.text h2{
+    font-size: 30px;
+    padding-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text p{
+    padding: 2em 2em;
+    font-size: 16px;
+}
+.card div{
+    margin-bottom: 2em;
+    font-size: 15px;
+}
+.card div a{
+    background-color: #00669F;
+    color: white;
+    margin-bottom: 1em;
+    text-decoration: none;
+    padding: 1em 2em;
+}
 
 /*  footer  */
-
-
+footer{
+    background-color: #00669F;
+    color: white;
+    padding: 0.1em;
+}
+footer p{
+    font-size: 16px;
+}

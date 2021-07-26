@@ -1,22 +1,140 @@
 /*       General        */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 
+/* Header */
+header{
+    background-color: #F0A83E;
+}
+.top-header{
+    align-items: center;
+    background-color:#222222;
+    color: white;
+    display:flex;
+    font-weight: 400;
+    justify-content: space-between;
+}
+.top-header p{
+    padding: 0.4em 5em;
+}
+.top-header ul{
+    display: flex;
+    padding-right: 5em; 
+}
+.top-header ul li{
+    padding-left: 2em;
+}
+.bot-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 3em;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+h1 span{
+    color: black;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    justify-content: space-evenly;
+    padding-right: 4em;
+}
+nav ul li{
+    padding-left: 2.5em;
+}
+nav ul li a{
+    color:white;
+}
+
+/* Main */
 
 
-
-
-
-
-
-
-
-/******** Header **********/
-
-
-/******** Main ********/
-
-
-/******** Footer *********/
+/* Footer */
+footer{
+    background-color: #3C2313;
+}
+.newsletter div{
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.9em 1.5em;
+}
+.newsletter i{
+    font-size: 30px;
+}
+.newsletter p{
+    padding-left: 0.5em;
+}
+.contacto-foot{
+    align-items: center;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    margin:0.6em 2em;
+}
+.contacto-foot ul li{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.6em 0em; 
+}
+.icon{
+    align-items: center;
+    background-color: #8A8787;
+    border: 4.5px solid #786960;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    font-size:38px;
+    height: 65px;
+    justify-content:center;
+    padding: 0.3em 0.5em;
+    width:  65px;
+}
+.contacto-foot ul li div{
+    margin-left:1.7em;
+    font-weight: 700;
+}
+.contacto-foot ul li div h3{
+    font-size: 20px;
+}
+.contacto-foot ul li div p{
+    font-size: 10px;
+    color:#8A8787;
+    
+}
+.contacto-foot h2{
+    font-size: 20px;
+}
+.contacto-foot h2 span{
+    color: #F0A83E;
+}
+.bot-foot{
+    background-color: #222222;
+    color:#FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    padding: 0.25em;
+}
